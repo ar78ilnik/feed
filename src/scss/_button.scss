@@ -1,0 +1,12 @@
+.button {
+    font-family: 'DMSans-Bold', sans-serif;
+    border: none;
+
+    &_menu {
+        display: block;
+        width: 45px;
+        height: 45px;
+        border: none;
+        background-color: transparent;
+    }
+}
