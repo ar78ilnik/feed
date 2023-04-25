@@ -1,0 +1,42 @@
+{
+    "name": "feed",
+    "version": "1.0.0",
+    "description": "",
+    "main": "gulpfile.js",
+    "type": "module",
+    "scripts": {
+        "dev": "gulp"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ar78ilnik/feed.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ar78ilnik/feed/issues"
+    },
+    "homepage": "https://github.com/ar78ilnik/feed#readme",
+    "devDependencies": {
+        "browser-sync": "^2.29.1",
+        "del": "^6.1.1",
+        "gulp": "^4.0.2",
+        "gulp-clean-css": "^4.3.0",
+        "gulp-cli": "^2.3.0",
+        "gulp-file-include": "^2.3.0",
+        "gulp-if": "^3.0.0",
+        "gulp-imagemin": "^8.0.0",
+        "gulp-newer": "^1.4.0",
+        "gulp-notify": "^4.0.0",
+        "gulp-plumber": "^1.2.1",
+        "gulp-rename": "^2.0.0",
+        "gulp-sass": "^5.1.0",
+        "gulp-svg-sprite": "^2.0.3",
+        "gulp-version-number": "^0.2.4",
+        "gulp-webp": "^4.0.1",
+        "sass": "^1.62.0",
+        "webpack": "^5.80.0",
+        "webpack-stream": "^7.0.0"
+    }
+}
