@@ -1,5 +1,15 @@
 .list {
-    &__item {
-        border-bottom: 1px solid var(--text);
+    &_header {
+        padding-left: 22px;
+    }
+}
+
+@media (min-width: $pv) {
+    .list {
+        &_header {
+            display: flex;
+            justify-content: space-between;
+            padding-left: 0;
+        }
     }
 }

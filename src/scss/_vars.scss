@@ -18,6 +18,24 @@ input[type="radio"] {
     appearance: none;
 }
 
+/* Viewport Sizes*/
+
+/* Mobile Viewport 375*/
+$mv: 320px;
+/*Tablet Viewport 768*/
+$tv: 768px;
+/*PC Viewport 1728*/
+$pv: 1200px;
+
+/* Container Sizes */
+
+/* Mobile Container*/
+$mc: 90%;
+/* Tablet Container*/
+$tc: 90%;
+/* Pc Container*/
+$pc: 90%;
+
 /* Colors */
 :root {
     --text: rgba(44, 44, 44, 1);

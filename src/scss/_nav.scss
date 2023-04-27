@@ -14,3 +14,12 @@
         z-index: 2;
     }
 }
+
+@media (min-width: $pv) {
+    .nav {
+        &_header {
+            display: block;
+            width: 70%;
+        }
+    }
+}
