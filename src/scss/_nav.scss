@@ -1,0 +1,16 @@
+.nav {
+    &_header {
+        display: none;
+    }
+
+    &_header--open {
+        display: block;
+        position: absolute;
+        top: 105px;
+        left: 0;
+        right: 0;
+        background-color: var(--background);
+        min-height: 100vh;
+        z-index: 2;
+    }
+}
