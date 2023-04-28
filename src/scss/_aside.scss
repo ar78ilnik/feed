@@ -1,0 +1,10 @@
+.aside {
+    display: none;
+}
+
+@media (min-width: $pv) {
+    .aside {
+        display: block;
+        width: 40%;
+    }
+}
